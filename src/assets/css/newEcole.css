@@ -1,0 +1,21 @@
+.transport-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid transparent;
+    /* Bordure par défaut */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.option.selected {
+    border: 2px dashed #007bff;
+    /* Bordure pointillée pour les options sélectionnées */
+    background-color: #e7f0ff;
+    /* Optionnel : changement de fond pour l'option sélectionnée */
+}
